@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人界 - JINKAI</title>
+    <meta
+      name="description"
+      content="人界 - JINKAI は、HP・MP・GOLD・LUCKを管理しながら戦う戦略カードゲームです。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">人界</span>
+          <span class="brand-sub">JINKAI</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#overview">概要</a>
+          <a href="#rules">ルール</a>
+          <a href="#play">プレイ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <p class="eyebrow">ゴッドフィールドに影響を受けた戦略カードゲーム</p>
+            <h1>人界 - JINKAI</h1>
+            <p class="lead">
+              人界は運任せのゲームではない。HP・MP・GOLD・LUCKを管理しながら、
+              戦略的にカードを選び、勝利を目指す。
+            </p>
+            <div class="cta">
+              <a href="#play" class="btn primary">今すぐ遊ぶ</a>
+              <a href="#rules" class="btn secondary">ルールを見る</a>
+            </div>
+          </div>
+
+          <aside class="status-panel">
+            <h3>初期ステータス</h3>
+            <div class="stat-row"><span>❤️ HP</span><strong>50</strong></div>
+            <div class="stat-row"><span>🔵 MP</span><strong>20</strong></div>
+            <div class="stat-row"><span>💰 GOLD</span><strong>10</strong></div>
+            <div class="stat-row"><span>🍀 LUCK</span><strong>5</strong></div>
+            <div class="stat-row"><span>🃏 手札</span><strong>7</strong></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="overview" class="section">
+        <div class="container">
+          <h2>概要</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>6属性システム</h3>
+              <p>火・水・鋼・土・闇・光の6属性で攻撃と防御を決める。</p>
+            </article>
+            <article class="card">
+              <h3>運（LUCK）管理</h3>
+              <p>LUCKは確率ではなく、戦略的に管理するリソース。</p>
+            </article>
+            <article class="card">
+              <h3>独自状態異常</h3>
+              <p>毒・火傷・凍結・混乱・出血・呪いなどで戦況を揺さぶる。</p>
+            </article>
+            <article class="card">
+              <h3>異形システム</h3>
+              <p>条件を満たすと強化されるが、代償も伴う。</p>
+            </article>
+            <article class="card">
+              <h3>HP代償カード</h3>
+              <p>HPを失う代わりに、強力な効果を得るカードが存在する。</p>
+            </article>
+            <article class="card">
+              <h3>最大12人チーム戦</h3>
+              <p>1vs1から6vs6まで、チーム戦を前提にした構成。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="rules" class="section alt">
+        <div class="container">
+          <h2>ルール</h2>
+          <div class="rules">
+            <div class="rule-box">
+              <h3>勝利条件</h3>
+              <p>HPが0以下になると敗北。</p>
+              <p>チーム戦では所属チームが全滅した時点で敗北。</p>
+            </div>
+            <div class="rule-box">
+              <h3>初期条件</h3>
+              <p>HP 50 / MP 20 / GOLD 10 / LUCK 5 / 手札 7枚</p>
+            </div>
+            <div class="rule-box">
+              <h3>デッキ構築</h3>
+              <p>共通カードプールを使用し、最大20枚まで。</p>
+            </div>
+            <div class="rule-box">
+              <h3>属性</h3>
+              <p>火・水・鋼・土・闇・光の6属性。属性相性はゴッドフィールド準拠。</p>
+            </div>
+            <div class="rule-box">
+              <h3>運</h3>
+              <p>LUCKは管理可能なリソースであり、命中率・回避率・クリティカル率などに影響する。</p>
+            </div>
+            <div class="rule-box">
+              <h3>状態異常</h3>
+              <p>毒、火傷、凍結、混乱、出血、呪いなどが戦局を左右する。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="play" class="section">
+        <div class="container">
+          <h2>簡易ブラウザ戦闘</h2>
+          <div class="battle-shell">
+            <div class="battle-area">
+              <div class="fighter player">
+                <div class="fighter-name">プレイヤー</div>
+                <div class="bar hp"><span id="playerHpBar"></span></div>
+                <div class="bar mp"><span id="playerMpBar"></span></div>
+                <div class="stat-line">
+                  <span>HP <strong id="playerHp">50</strong></span>
+                  <span>MP <strong id="playerMp">20</strong></span>
+                  <span>LUCK <strong id="playerLuck">5</strong></span>
+                </div>
+              </div>
+
+              <div class="versus">VS</div>
+
+              <div class="fighter enemy">
+                <div class="fighter-name">敵</div>
+                <div class="bar enemy-bar"><span id="enemyHpBar"></span></div>
+                <div class="stat-line">
+                  <span>HP <strong id="enemyHp">35</strong></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="controls">
+              <div class="hand" id="hand"></div>
+              <div class="actions">
+                <button id="drawCardBtn" class="btn primary">カードを引く</button>
+                <button id="endTurnBtn" class="btn secondary">ターン終了</button>
+                <button id="resetBtn" class="btn ghost">リセット</button>
+              </div>
+            </div>
+
+            <div id="log" class="log" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>人界 - JINKAI</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
