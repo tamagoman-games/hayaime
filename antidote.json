@@ -1,9 +1,0 @@
-{
-  "id": "antidote",
-  "name": "解毒剤",
-  "rank": "powerful",
-  "target": "any",
-  "removeStatus": [
-    "poison"
-  ]
-}
