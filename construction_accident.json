@@ -1,9 +1,0 @@
-{
-  "id": "construction_accident",
-  "name": "工事現場事故",
-  "rank": "powerful",
-  "target": "enemy",
-  "effect": {
-    "hp": -13
-  }
-}
