@@ -1,9 +1,0 @@
-{
-  "id": "building_collapse",
-  "name": "ビル崩落",
-  "rank": "legendary",
-  "target": "all",
-  "effect": {
-    "hp": -15
-  }
-}
