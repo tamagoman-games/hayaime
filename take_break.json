@@ -1,9 +1,0 @@
-{
-  "id": "take_break",
-  "name": "ひと休み",
-  "rank": "normal",
-  "target": "any",
-  "effect": {
-    "hp": 3
-  }
-}
