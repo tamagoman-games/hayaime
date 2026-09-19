@@ -1,0 +1,9 @@
+{
+  "id": "salary",
+  "name": "給料日",
+  "rank": "normal",
+  "target": "self",
+  "effect": {
+    "gold": 10
+  }
+}

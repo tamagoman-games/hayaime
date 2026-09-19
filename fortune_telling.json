@@ -1,0 +1,7 @@
+{
+  "id": "fortune_telling",
+  "name": "怪しい占い",
+  "rank": "good",
+  "target": "any",
+  "special": "10%で魔女召喚"
+}

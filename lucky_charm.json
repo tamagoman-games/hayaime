@@ -1,0 +1,9 @@
+{
+  "id": "lucky_charm",
+  "name": "厄除け",
+  "rank": "powerful",
+  "target": "any",
+  "removeStatus": [
+    "curse"
+  ]
+}

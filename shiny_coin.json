@@ -1,0 +1,10 @@
+{
+  "id": "shiny_coin",
+  "name": "光るコイン",
+  "rank": "normal",
+  "target": "self",
+  "effect": {
+    "gold": 5,
+    "luck": 1
+  }
+}

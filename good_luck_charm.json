@@ -1,0 +1,9 @@
+{
+  "id": "good_luck_charm",
+  "name": "お守り",
+  "rank": "powerful",
+  "target": "any",
+  "effect": {
+    "luck": 3
+  }
+}

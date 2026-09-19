@@ -1,0 +1,9 @@
+{
+  "id": "bandage",
+  "name": "包帯",
+  "rank": "normal",
+  "target": "any",
+  "removeStatus": [
+    "bleeding"
+  ]
+}

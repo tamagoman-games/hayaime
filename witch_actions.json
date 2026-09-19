@@ -1,0 +1,49 @@
+{
+  "witch": {
+    "actions": [
+      {
+        "weight": 25,
+        "name": "占い",
+        "effect": {
+          "luck": 1
+        }
+      },
+      {
+        "weight": 25,
+        "name": "呪詛",
+        "applyStatus": [
+          "curse"
+        ]
+      },
+      {
+        "weight": 15,
+        "name": "怪しい薬",
+        "applyDisease": "cold"
+      },
+      {
+        "weight": 10,
+        "name": "幻覚",
+        "applyStatus": [
+          "confusion"
+        ]
+      },
+      {
+        "weight": 10,
+        "name": "闇の儀式",
+        "effect": {
+          "hp": -5
+        }
+      },
+      {
+        "weight": 10,
+        "name": "未来予知",
+        "drawCards": 1
+      },
+      {
+        "weight": 5,
+        "name": "禁術",
+        "randomPowerfulSpell": true
+      }
+    ]
+  }
+}

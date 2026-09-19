@@ -1,0 +1,9 @@
+{
+  "id": "lucky_day",
+  "name": "ツイてる日",
+  "rank": "powerful",
+  "target": "self",
+  "effect": {
+    "luck": 4
+  }
+}

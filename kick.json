@@ -1,0 +1,9 @@
+{
+  "id": "kick",
+  "name": "蹴る",
+  "rank": "normal",
+  "target": "enemy",
+  "effect": {
+    "hp": -2
+  }
+}

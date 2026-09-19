@@ -1,0 +1,9 @@
+{
+  "id": "chair",
+  "name": "パイプ椅子",
+  "rank": "normal",
+  "target": "enemy",
+  "effect": {
+    "hp": -4
+  }
+}

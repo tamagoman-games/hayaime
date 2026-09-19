@@ -1,0 +1,12 @@
+{
+  "id": "motorcycle",
+  "name": "バイク事故",
+  "rank": "powerful",
+  "target": "enemy",
+  "effect": {
+    "hp": -10
+  },
+  "applyStatus": [
+    "bleeding"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bonus",
+  "name": "ボーナス",
+  "rank": "good",
+  "target": "self",
+  "effect": {
+    "gold": 20
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "traffic_accident",
+  "name": "交通事故",
+  "rank": "powerful",
+  "target": "enemy",
+  "effect": {
+    "hp": -12
+  },
+  "applyStatus": [
+    "bleeding"
+  ]
+}

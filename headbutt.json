@@ -1,0 +1,9 @@
+{
+  "id": "headbutt",
+  "name": "頭突き",
+  "rank": "normal",
+  "target": "enemy",
+  "effect": {
+    "hp": -3
+  }
+}

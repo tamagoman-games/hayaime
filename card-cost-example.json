@@ -1,0 +1,13 @@
+{
+  "id": "promotion",
+  "name": "昇進",
+  "rank": "powerful",
+  "target": "self",
+  "cost": {
+    "mp": 3
+  },
+  "effect": {
+    "gold": 15,
+    "luck": 2
+  }
+}

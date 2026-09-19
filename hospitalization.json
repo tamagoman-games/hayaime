@@ -1,0 +1,12 @@
+{
+  "id": "hospitalization",
+  "name": "入院",
+  "rank": "powerful",
+  "target": "any",
+  "effect": {
+    "hp": 15
+  },
+  "removeStatus": [
+    "bleeding"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "angel": {
+    "actions": [
+      {
+        "weight": 25,
+        "name": "祝福",
+        "effect": {
+          "hp": 5
+        }
+      },
+      {
+        "weight": 20,
+        "name": "導き",
+        "effect": {
+          "luck": 2
+        }
+      },
+      {
+        "weight": 15,
+        "name": "救済",
+        "removeRandomStatus": true
+      },
+      {
+        "weight": 15,
+        "name": "慈悲",
+        "removeDisease": true
+      },
+      {
+        "weight": 10,
+        "name": "試練",
+        "randomCard": true
+      },
+      {
+        "weight": 10,
+        "name": "審判",
+        "randomTargetRandomCard": true
+      },
+      {
+        "weight": 5,
+        "name": "神託",
+        "randomLegendaryCard": true
+      }
+    ]
+  }
+}

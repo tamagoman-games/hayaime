@@ -1,0 +1,9 @@
+{
+  "id": "train_crash",
+  "name": "列車衝突",
+  "rank": "legendary",
+  "target": "allEnemies",
+  "effect": {
+    "hp": -18
+  }
+}

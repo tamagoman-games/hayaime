@@ -1,0 +1,9 @@
+{
+  "id": "bicycle_collision",
+  "name": "自転車衝突",
+  "rank": "good",
+  "target": "enemy",
+  "effect": {
+    "hp": -6
+  }
+}
