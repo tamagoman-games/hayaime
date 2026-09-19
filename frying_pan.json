@@ -1,9 +1,0 @@
-{
-  "id": "frying_pan",
-  "name": "フライパン",
-  "rank": "good",
-  "target": "enemy",
-  "effect": {
-    "hp": -5
-  }
-}
