@@ -1,9 +1,0 @@
-{
-  "id": "drink_water",
-  "name": "水を飲む",
-  "rank": "normal",
-  "target": "any",
-  "effect": {
-    "hp": 2
-  }
-}
