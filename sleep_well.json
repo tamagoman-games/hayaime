@@ -1,9 +1,0 @@
-{
-  "id": "sleep_well",
-  "name": "熟睡",
-  "rank": "normal",
-  "target": "any",
-  "effect": {
-    "hp": 5
-  }
-}
