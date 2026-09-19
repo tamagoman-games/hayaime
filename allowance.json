@@ -1,9 +1,0 @@
-{
-  "id": "allowance",
-  "name": "お小遣い",
-  "rank": "normal",
-  "target": "all",
-  "effect": {
-    "gold": 5
-  }
-}
