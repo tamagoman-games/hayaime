@@ -1,9 +1,0 @@
-{
-  "id": "stock_profit",
-  "name": "株で儲ける",
-  "rank": "powerful",
-  "target": "self",
-  "effect": {
-    "gold": 30
-  }
-}
