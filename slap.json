@@ -1,9 +1,0 @@
-{
-  "id": "slap",
-  "name": "平手打ち",
-  "rank": "normal",
-  "target": "enemy",
-  "effect": {
-    "hp": -1
-  }
-}
